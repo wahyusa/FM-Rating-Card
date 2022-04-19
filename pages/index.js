@@ -1,82 +1,43 @@
-import Head from 'next/head'
-
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
+    <main className="font-overpass bg-fm-very-dark-blue min-h-screen flex flex-col items-center justify-center">
+      <section className="space-y-6 bg-fm-dark-blue rounded-lg p-6 max-w-[320px] lg:max-w-[375px] mx-auto flex flex-col">
+        <img
+          className="self-start bg-fm-medium-grey p-3 rounded-full"
+          src="../icon-star.svg"
+          alt="Icon star"
+        />
+        <h1 className="text-2xl text-white font-bold">How did we do ?</h1>
+        <p className="text-[15px] text-fm-light-grey">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
         </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+        <nav>
+          <ul className="flex items-center space-x-5">
+            <li className="transition duration-300 cursor-pointer hover:bg-fm-light-grey hover:text-white p-3 w-12 text-center text-fm-light-grey active:bg-fm-orange bg-fm-medium-grey rounded-full">
+              1
+            </li>
+            <li className="transition duration-300 cursor-pointer hover:bg-fm-light-grey hover:text-white p-3 w-12 text-center text-fm-light-grey active:bg-fm-orange bg-fm-medium-grey rounded-full">
+              2
+            </li>
+            <li className="transition duration-300 cursor-pointer hover:bg-fm-light-grey hover:text-white p-3 w-12 text-center text-fm-light-grey active:bg-fm-orange bg-fm-medium-grey rounded-full">
+              3
+            </li>
+            <li className="transition duration-300 cursor-pointer hover:bg-fm-light-grey hover:text-white p-3 w-12 text-center text-fm-light-grey active:bg-fm-orange bg-fm-medium-grey rounded-full">
+              4
+            </li>
+            <li className="transition duration-300 cursor-pointer hover:bg-fm-light-grey hover:text-white p-3 w-12 text-center text-fm-light-grey active:bg-fm-orange bg-fm-medium-grey rounded-full">
+              5
+            </li>
+          </ul>
+        </nav>
+        <button
+          className="uppercase py-3 rounded-full text-white bg-fm-orange hover:bg-white transition duration-300 hover:text-fm-orange"
+          type="button"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
-    </div>
-  )
+          Submit
+        </button>
+      </section>
+    </main>
+  );
 }
