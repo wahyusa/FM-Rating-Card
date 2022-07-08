@@ -13,14 +13,20 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-            pages: "docs",
-            assets: "docs"
+			pages: 'build',
+			assets: 'build',
+			fallback: null,
+			precompress: false
         }),
 		paths: {
-            base: dev ? '' : '/FM-Rating-Card',
+            base: dev ? '' : '',
         },
 		appDir: 'internal',
+		prerender: {
+			default: true,
+		}
 	}
 };
 
 export default config;
+
