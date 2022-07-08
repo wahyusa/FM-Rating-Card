@@ -19,7 +19,7 @@ const config = {
 			precompress: false
         }),
 		paths: {
-            base: dev ? '' : '',
+            base: dev ? '' : '/FM-Rating-Card',
         },
 		appDir: 'internal',
 		prerender: {
