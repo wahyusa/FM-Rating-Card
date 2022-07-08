@@ -1,79 +1,38 @@
-# Frontend Mentor - Interactive rating component solution
+# create-svelte
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Table of contents
+## Creating a project
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#todo)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+If you're seeing this, you've probably already done this step. Congrats!
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+```bash
+# create a new project in the current directory
+npm init svelte
 
-## Overview
+# create a new project in my-app
+npm init svelte my-app
+```
 
-### The challenge
+## Developing
 
-Users should be able to:
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+```bash
+npm run dev
 
-### Screenshot
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-![](./screenshot.jpg)
+## Building
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+To create a production version of your app:
 
-### Links
+```bash
+npm run build
+```
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+You can preview the production build with `npm run preview`.
 
-### Built with
-
-- Semantic HTML5 markup
-- TailwindCSS 3
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-
-### What I learned
-
-Well, so far I have learn more about tailwindcss especially when creating new color pallete or extending current font and how to integrate it with NextJS.
-
-### Todo
-
-[] Create "Thank You" UI with NextJS
-[] Learn how make element changes in NextJS
-[] Add some animation or transition
-
-### Useful resources
-
-- [TailwindCSS Docs](https://tailwindcss.com/docs/installation)
-- [NextJS Docs](https://nextjs.org/)
-- [CodeSandbox](https://codesandbox.io/) - Free text editor on your browser
-
-## Author
-
-- Website - [Wahyu Syamsul A'lam](https://sabar.my.id)
-- Frontend Mentor - [@wahyusa](https://www.frontendmentor.io/profile/wahyusa)
-- Twitter - [@wahyusa_self](https://www.twitter.com/wahyusa_self)
-
-## Preview "Starter Template"
-
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own "Starter Template"
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
