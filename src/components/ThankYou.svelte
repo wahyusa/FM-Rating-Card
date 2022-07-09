@@ -5,7 +5,7 @@
 <section
 	class="p-6 rounded-xl bg-brand-dark-blue max-w-[350px] mx-auto flex items-center flex-col space-y-4"
 >
-	<img class="my-2" src="FM-Rating-Card/images/illustration-thank-you.svg" alt="illustration-thank-you" />
+	<img class="my-2" src="/FM-Rating-Card/images/illustration-thank-you.svg" alt="illustration-thank-you" />
 	<span class="rounded-full text-brand bg-brand-medium-grey/20 px-3 py-1.5">
 		You selected {ratingValue} out of 5
 	</span>

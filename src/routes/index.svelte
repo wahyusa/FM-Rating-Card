@@ -23,7 +23,7 @@
 			class="p-6 rounded-xl bg-brand-dark-blue max-w-[350px] mx-auto flex flex-col space-y-4"
 		>
 			<div class="rounded-full bg-brand-medium-grey/20 self-start inline-block drop-shadow-lg p-3">
-				<img src="FM-Rating-Card/images/icon-star.svg" alt="icon star" />
+				<img src="/FM-Rating-Card/images/icon-star.svg" alt="icon star" />
 			</div>
 			<h1 class="text-brand-white text-2xl tracking-wide font-bold">How did we do?</h1>
 			<p class="text-[15px]">
