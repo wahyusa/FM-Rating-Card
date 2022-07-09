@@ -4,52 +4,113 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="/FM-Rating-Card/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta http-equiv="content-security-policy" content=""><title>Frontend Mentor | Interactive rating component</title><link rel="icon" type="image/png" sizes="32x32" href="/FM-Rating-Card/images/favicon-32x32.png" data-svelte="svelte-9zbrtu">
-	<link rel="stylesheet" href="/FM-Rating-Card/_app/immutable/assets/pages/__layout.svelte-12be6590.css">
-	<link rel="modulepreload" href="/FM-Rating-Card/_app/immutable/start-58256a0d.js">
-	<link rel="modulepreload" href="/FM-Rating-Card/_app/immutable/chunks/index-7b0241eb.js">
-	<link rel="modulepreload" href="/FM-Rating-Card/_app/immutable/pages/__layout.svelte-1a7c5629.js">
-	<link rel="modulepreload" href="/FM-Rating-Card/_app/immutable/pages/index.svelte-c4654cc7.js">
+		<meta http-equiv="content-security-policy" content="" />
+		<title>Frontend Mentor | Interactive rating component</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/FM-Rating-Card/images/favicon-32x32.png"
+			data-svelte="svelte-9zbrtu"
+		/>
+		<link
+			rel="stylesheet"
+			href="/FM-Rating-Card/_app/immutable/assets/pages/__layout.svelte-12be6590.css"
+		/>
+		<link rel="modulepreload" href="/FM-Rating-Card/_app/immutable/start-a4c050cb.js" />
+		<link rel="modulepreload" href="/FM-Rating-Card/_app/immutable/chunks/index-7b0241eb.js" />
+		<link
+			rel="modulepreload"
+			href="/FM-Rating-Card/_app/immutable/pages/__layout.svelte-5493fbcf.js"
+		/>
+		<link
+			rel="modulepreload"
+			href="/FM-Rating-Card/_app/immutable/pages/index.svelte-c4654cc7.js"
+		/>
 	</head>
 	<body>
 		<div>
+			<main
+				class="h-screen bg-brand-very-dark-blue grid items-center justify-center content-around font-overpass text-brand-light-grey"
+			>
+				<section
+					class="p-6 rounded-xl bg-brand-dark-blue max-w-[350px] mx-auto flex flex-col space-y-4"
+				>
+					<div
+						class="rounded-full bg-brand-medium-grey/20 self-start inline-block drop-shadow-lg p-3"
+					>
+						<img src="/FM-Rating-Card/images/icon-star.svg" alt="icon star" />
+					</div>
+					<h1 class="text-brand-white text-2xl tracking-wide font-bold">How did we do?</h1>
+					<p class="text-[15px]">
+						Please let us know how we did with your support request. All feedback is appreciated to
+						help us improve our offering!
+					</p>
+					<div class="flex items-center space-x-5 py-3 justify-center">
+						<button
+							class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center"
+						>
+							1
+						</button>
+						<button
+							class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center"
+						>
+							2
+						</button>
+						<button
+							class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center"
+						>
+							3
+						</button>
+						<button
+							class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center"
+						>
+							4
+						</button>
+						<button
+							class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center"
+						>
+							5
+						</button>
+					</div>
+					<button
+						class="bg-brand transition-colors duration-300 font-bold hover:bg-brand-white hover:text-brand text-brand-white p-3 text-sm tracking-widest rounded-full"
+					>
+						SUBMIT
+					</button>
+				</section>
+			</main>
+			<footer class="absolute bottom-0 text-brand-medium-grey text-sm">
+				Challenge by
+				<a
+					class="hover:underline"
+					href="https://www.frontendmentor.io?ref=challenge"
+					target="_blank"
+					>Frontend Mentor</a
+				>. Coded by
+				<a class="hover:underline" href="https://github.com/wahyusa/FM-Rating-Card"
+					>Wahyu Syamsul A&#39;lam</a
+				>.
+			</footer>
 
-
-
-<main class="h-screen bg-brand-very-dark-blue grid items-center justify-center content-around font-overpass text-brand-light-grey"><section class="p-6 rounded-xl bg-brand-dark-blue max-w-[350px] mx-auto flex flex-col space-y-4"><div class="rounded-full bg-brand-medium-grey/20 self-start inline-block drop-shadow-lg p-3"><img src="/FM-Rating-Card/images/icon-star.svg" alt="icon star"></div>
-			<h1 class="text-brand-white text-2xl tracking-wide font-bold">How did we do?</h1>
-			<p class="text-[15px]">Please let us know how we did with your support request. All feedback is appreciated to help
-				us improve our offering!
-			</p>
-			<div class="flex items-center space-x-5 py-3 justify-center"><button class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center">1</button>
-				<button class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center">2</button>
-				<button class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center">3</button>
-				<button class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center">4</button>
-				<button class="focus:bg-brand-light-grey focus:text-brand-white hover:text-brand-white cursor-pointer hover:bg-brand rounded-full transition-colors duration-300 bg-brand-medium-grey/20 p-4 h-11 w-11 flex justify-center items-center">5</button></div>
-			<button class="bg-brand transition-colors duration-300 font-bold hover:bg-brand-white hover:text-brand text-brand-white p-3 text-sm tracking-widest rounded-full">SUBMIT
-			</button></section></main>
-<div class="absolute bottom-0 text-brand-medium-grey text-sm">Challenge by <a class="hover:underline" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a class="hover:underline" href="https://github.com/wahyusa/FM-Rating-Card">Wahyu Syamsul A&#39;lam</a>.
-</div>
-
-
-		<script type="module" data-sveltekit-hydrate="1wfpm44">
-		import { start } from "/FM-Rating-Card/_app/immutable/start-58256a0d.js";
-		start({
-			target: document.querySelector('[data-sveltekit-hydrate="1wfpm44"]').parentNode,
-			paths: {"base":"/FM-Rating-Card","assets":"/FM-Rating-Card"},
-			session: {},
-			route: true,
-			spa: false,
-			trailing_slash: "never",
-			hydrate: {
-				status: 200,
-				error: null,
-				nodes: [0, 2],
-				params: {},
-				routeId: ""
-			}
-		});
-	</script></div>
+			<script type="module" data-sveltekit-hydrate="1d5a0al">
+				import { start } from '/FM-Rating-Card/_app/immutable/start-a4c050cb.js';
+				start({
+					target: document.querySelector('[data-sveltekit-hydrate="1d5a0al"]').parentNode,
+					paths: { base: '/FM-Rating-Card', assets: '/FM-Rating-Card' },
+					session: {},
+					route: true,
+					spa: false,
+					trailing_slash: 'never',
+					hydrate: {
+						status: 200,
+						error: null,
+						nodes: [0, 2],
+						params: {},
+						routeId: ''
+					}
+				});
+			</script>
+		</div>
 	</body>
 </html>

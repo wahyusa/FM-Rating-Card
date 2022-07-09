@@ -17,16 +17,15 @@ const config = {
 			assets: 'build',
 			fallback: null,
 			precompress: false
-        }),
+		}),
 		paths: {
-            base: dev ? '' : '/FM-Rating-Card',
-        },
+			base: dev ? '' : '/FM-Rating-Card'
+		},
 		appDir: '_app',
 		prerender: {
-			default: true,
+			default: true
 		}
 	}
 };
 
 export default config;
-
