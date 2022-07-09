@@ -26,13 +26,9 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-### Demo
-
-[FireShot](https://getfireshot.com/)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://wahyusa.github.io/FM-Rating-Card/](https://wahyusa.github.io/FM-Rating-Card/)
 
 ## My process
 
